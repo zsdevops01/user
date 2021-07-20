@@ -81,3 +81,6 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+configmap:
+  REDIS_HOST: redis-master
